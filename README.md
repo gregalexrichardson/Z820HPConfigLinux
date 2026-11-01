@@ -1,6 +1,6 @@
-# HPConfigLinux
+# Z820HPConfigLinux
 
-HPConfigLinux is an experimental Linux utility for inspecting and changing HP BIOS settings. It can edit HP F10 Replicated Setup exports offline and, on the tested HP Z820 workstation, access settings directly through a legacy WMI interface. It provides a command-line interface and an interactive terminal interface.
+Z820HPConfigLinux is an experimental Linux utility for inspecting and changing HP BIOS settings. It can edit HP F10 Replicated Setup exports offline and, on the tested HP Z820 workstation, access settings directly through a legacy WMI interface. It provides a command-line interface and an interactive terminal interface.
 
 This is an independent project and is not affiliated with HP. It is not yet a full replacement for HP BIOS Configuration Utility.
 
