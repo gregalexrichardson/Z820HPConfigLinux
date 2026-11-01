@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hpconfig-linux"
+version = "0.1.0"
+description = "Experimental HP BIOS configuration utility for Linux"
+requires-python = ">=3.9"
+license = {text = "GPL-2.0-only"}
+
+[project.scripts]
+hpconfig = "hpconfig:main"
+
+[tool.setuptools]
+py-modules = ["hpconfig", "live", "tui"]

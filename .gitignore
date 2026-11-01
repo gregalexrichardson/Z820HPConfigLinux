@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.coverage
+
+# Kernel module build products
+kernel/*.o
+kernel/*.ko
+kernel/*.mod
+kernel/*.mod.c
+kernel/.*.cmd
+kernel/Module.symvers
+kernel/modules.order
+kernel/.tmp_versions/
+
+# Local firmware exports and captures (may contain sensitive data)
+/captures/
+/backups/
+CPQSETUP*.TXT
